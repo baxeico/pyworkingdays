@@ -1,7 +1,8 @@
 import unittest
 from datetime import date
 
-import workingdays, l10n.it
+import workingdays
+import workingdays.l10n.it
 
 class TestDefaultLocale(unittest.TestCase):
 
@@ -32,7 +33,7 @@ class TestLocaleIt(unittest.TestCase):
 
     @classmethod
     def setUpClass(cls):
-        workingdays.is_workingday = l10n.it.is_workingday
+        workingdays.is_workingday = workingdays.l10n.it.is_workingday
 
     def test_is_workingday(self):
         self.assertTrue(workingdays.is_workingday(date(2015, 3, 25)))
