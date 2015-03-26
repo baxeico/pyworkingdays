@@ -1,3 +1,4 @@
 *.pyc
 dist/
 pyworkingdays.egg-info/
+build/
