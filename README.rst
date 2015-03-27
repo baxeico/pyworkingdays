@@ -10,7 +10,9 @@ Python compatibility
 
 The package is continuosly tested on Python 2.7, 3.2, 3.3 and 3.4.
 
-`|BuildStatus| <https://travis-ci.org/baxeico/pyworkingdays>`_
+.. image:: https://travis-ci.org/baxeico/pyworkingdays.svg?branch=master  
+    :target: https://travis-ci.org/baxeico/pyworkingdays
+
 
 Requirements
 ------------
@@ -92,5 +94,3 @@ Use a different localization, that is taking into account holidays for a particu
 
 **See file test.py in the source directory to have a better idea of the
 API and the expected results.**
-
-.. |BuildStatus| image:: https://travis-ci.org/baxeico/pyworkingdays.svg?branch=master
