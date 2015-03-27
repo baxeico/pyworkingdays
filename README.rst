@@ -93,5 +93,4 @@ Use a different localization, that is taking into account holidays for a particu
 **See file test.py in the source directory to have a better idea of the
 API and the expected results.**
 
-.. |Build
-Status| image:: https://travis-ci.org/baxeico/pyworkingdays.svg?branch=master
+.. |Build Status| image:: https://travis-ci.org/baxeico/pyworkingdays.svg?branch=master
