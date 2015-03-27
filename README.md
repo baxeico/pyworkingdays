@@ -62,4 +62,16 @@ import workingdays
 workingday_after_today = workingdays.next(date.today())
 ```
 
+### Use a different localization, that is taking into account holidays for a particular country
+
+```python
+import date
+import workingdays
+import workingdays.l10n.it
+
+workingdays.is_workingday = workingdays.l10n.it.is_workingday
+
+workingday_after_today_in_italy = workingdays.next(date.today())
+```
+
 **See file test.py in the source directory to have a better idea of the API and the expected results.**
